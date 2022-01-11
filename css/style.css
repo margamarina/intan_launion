@@ -88,14 +88,14 @@ p {
   color: #b3541e;
   list-style: 1.2em;
 }
-.primary-text {
+#hero .primary-text {
   color: #7c99ac;
 }
 #hero .hero-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
 }
-.text-lead {
+#hero-content.text-lead {
   font-size: 20px;
   color: #e7fbbe;
 }
@@ -123,21 +123,12 @@ p {
   display: inline-block;
   font-size: 18px;
   color: #f2ffe9;
-  background: #f9d371;
+  background: #7C99AC;
   padding: 15px 15px;
   border: none;
-  cursor: pointer;
   text-align: center;
 }
-#about .container-2 {
-  display: inline-block;
-  font-size: 18px;
-  color: #f2ffe9;
-  background: #c84b31;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-}
+
 /* testimonials */
 #testimonials p {
   font-size: 18px;
@@ -162,6 +153,13 @@ p {
   padding: 20px;
   width: 100%;
   border-radius: 1.2em;
+}
+#section {
+  background: url(../image/dagat.jpg);
+  font-size: 18px;
+  text-align: center;
+  color: #362222;
+  padding: 1.5em;
 }
 footer {
   background: black;
